@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ProfileController">
+   <children>
+      <Label fx:id="userNameLabel" layoutX="333.0" layoutY="61.0" prefHeight="17.0" prefWidth="90.0" text="UserName here">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstNameLabel" layoutX="331.0" layoutY="126.0" prefHeight="17.0" prefWidth="80.0" text="First Name here">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastNameLabel" layoutX="331.0" layoutY="189.0" prefHeight="17.0" prefWidth="90.0" text="LastName here">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="122.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="90.240234375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="122.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="90.240234375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="122.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" wrappingWidth="90.240234375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="okButton" layoutX="240.0" layoutY="281.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="35.0" prefWidth="69.0" text="Ok">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

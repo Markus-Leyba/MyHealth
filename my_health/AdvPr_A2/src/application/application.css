@@ -1,0 +1,72 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-color: #FEE7E6;
+	}
+	
+.Stage{
+	-fx-background-color: #FEE7E6;
+}
+.AnchorPane{
+	-fx-background-color: #FEE7E6;
+}
+.BorderPane{
+	-fx-background-color: #FEE7E6;
+}
+GridPane{
+	-fx-background-color: #FEE7E6;
+}
+.Label{
+	-fx-font-size: 16;
+}
+#label{
+	-fx-font-size: 16;
+}
+
+.TableView{
+	-fx-background-color: #F9EAC2;
+}
+
+.Text{
+	-fx-font-size: 20;
+	
+}
+
+.Button{}
+
+#selectButton{
+	-fx-background-color: #00E0D4;
+}
+#createUserButton{
+	-fx-background-color: #00E0D4;
+}
+#okButton{
+	-fx-background-color: #00E0D4;
+}
+#confirmButton{
+	-fx-background-color: #00E0D4;
+}
+#chooseDirectoryButton{
+	-fx-background-color: #FFED86
+}
+#cancelButton{
+	-fx-background-color: #FF4500;
+}
+
+#menuBar{
+	-fx-background-color: #FFED86
+}
+
+.MenuItem{
+	-fx-background-color: #00E0D4
+}
+
+.TextField{
+	-fx-background-color: #00E0D4;
+}
+
+.Alert{
+	-fx-background-color: #FFED86
+
+
+}

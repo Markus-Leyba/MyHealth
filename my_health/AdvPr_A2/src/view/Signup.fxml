@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="430.0" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignupController">
+   <children>
+      <TextField fx:id="userNameTextField" layoutX="135.0" layoutY="82.0" promptText="max 45 characters" />
+      <TextField fx:id="lastNameTextField" layoutX="135.0" layoutY="220.0" />
+      <TextField fx:id="firstNameTextField" layoutX="135.0" layoutY="152.0" />
+      <TextField fx:id="passwordTextField" layoutX="135.0" layoutY="288.0" />
+      <Text layoutX="135.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="135.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name" />
+      <Text layoutX="135.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name" />
+      <Text layoutX="135.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Button fx:id="createUserButton" layoutX="158.0" layoutY="344.0" mnemonicParsing="false" onAction="#signUp" prefHeight="26.0" prefWidth="113.0" text="Sign Up" />
+      <Button fx:id="cancelButton" layoutX="190.0" layoutY="394.0" mnemonicParsing="false" onAction="#backToLogin" text="Close" />
+      <Label fx:id="signUpMessage" layoutX="163.0" layoutY="452.0" prefHeight="17.0" prefWidth="113.0" text="Enter your details" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
